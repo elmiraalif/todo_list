@@ -23,13 +23,13 @@ const Item = mongoose.model("Item", itemSchema);
 
 //create a new document
 const item1 = new Item({
-  name: "Do the laundry"
+  name: "Welcome to your To Do List"
 });
 const item2 = new Item({
-  name: "Complete the web dev bootcamp"
+  name: "Click on + to add"
 });
 const item3 = new Item({
-  name: "Reading IELTS test"
+  name: "Mark the checkbox to Delete"
 });
 
 // Item.insertMany([item1, item2, item3], function(err){
