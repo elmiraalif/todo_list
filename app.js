@@ -65,7 +65,7 @@ app.get("/", function (req, res) {
       });
       res.redirect("/");
     } else {
-      res.render("list", { listTitle: date.getDate(), newListItems: foundItems });
+      res.render("list", { listTitle: "Today", date: date.getDate(), newListItems: foundItems });
     }
   });
 }); //end of get method

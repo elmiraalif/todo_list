@@ -17,8 +17,16 @@ body {
 h1 {
   color: #fff;
   padding: 10px;
+  margin: 0;
 }
-
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff61;
+}
+input {
+  color: #8c55c0;
+}
 #main {
   display: flex;
   flex-flow: column;
@@ -37,20 +45,24 @@ h1 {
   font-family: "helvetica neue";
   text-align: center;
   font-weight: 100;
+  margin: 1.5rem;
 }
 
 .item {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
 }
-#main > div.box > form:nth-child(3) > div {
+/* #main > div.box > form:nth-child(3) > div {
   border: none;
-}
+} */
 
 .item:last-child {
-  border-bottom: 0;
+  border-top: 0;
+}
+#main > div.box > form:nth-child(2) > div {
+  border-top: 0;
 }
 
 input:checked + p {
@@ -74,6 +86,7 @@ form.item {
   text-align: center;
   margin: 0 20px;
   border-bottom: 1px solid #8c55c0;
+  border-top: none;
 }
 
 button {
