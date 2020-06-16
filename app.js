@@ -9,7 +9,7 @@ console.log(date.getDate());
 
 const app = express();
 //mongoose connection string
-mongoose.connect("mongodb+srv://admin-elmira:3152privacy7001@cluster0-phga0.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://admin_ea:CXDEf2LKZoGOq8Ri@cluster0-phga0.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
