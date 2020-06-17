@@ -86,7 +86,7 @@ app.get("/:customListName", function (req, res) {
         res.redirect("/" + customListName);
       } else {
         //show an existing list
-        res.render("list", { listTitle: foundList.name + date.getDate(), newListItems: foundList.items });
+        res.render("list", { listTitle: foundList.name, date: date.getDate(), newListItems: foundList.items });
       }
     }
   });

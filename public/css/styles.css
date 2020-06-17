@@ -54,9 +54,6 @@ input {
   align-items: center;
   border-top: 1px solid #f1f1f1;
 }
-/* #main > div.box > form:nth-child(3) > div {
-  border: none;
-} */
 
 .item:last-child {
   border-top: 0;
@@ -67,7 +64,7 @@ input {
 
 input:checked + p {
   text-decoration: line-through;
-  text-decoration-color: #a683e3;
+  text-decoration-color: #8c55c0;
 }
 
 input[type="checkbox"] {
@@ -115,8 +112,9 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: -1px -2px 13px -2px #00000052;
+  box-shadow: inset -1px -1px 13px -4px #00000052;
   border-radius: 13px;
+  transition: box-shadow 0.4s ease;
 }
 
 ::placeholder {
